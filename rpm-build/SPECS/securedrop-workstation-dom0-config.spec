@@ -45,6 +45,7 @@ install -m 755 -d %{buildroot}/usr/share/%{name}/scripts
 install -m 644 dom0/*.sls %{buildroot}/srv/salt/
 install -m 644 dom0/*.top %{buildroot}/srv/salt/
 install -m 644 dom0/*.j2 %{buildroot}/srv/salt/
+install -m 644 dom0/*.yml %{buildroot}/srv/salt/
 install -m 644 dom0/securedrop-update %{buildroot}/srv/salt/
 install -m 644 dom0/securedrop-login %{buildroot}/srv/salt/
 install -m 644 dom0/securedrop-launcher.desktop %{buildroot}/srv/salt/
